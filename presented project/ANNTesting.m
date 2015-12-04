@@ -4,9 +4,9 @@ close all;clear;clc
 load net
  
 %Load Testing Data
-inputs = importInput('input.xlsx'); 
+inputs = importInput('inputTest.xlsx'); 
 inputs = inputs.data';
-targets = importOutput('output.xlsx'); 
+targets = importOutput('outputTest.xlsx'); 
 targets = targets.data';
  
 % Test the Network
